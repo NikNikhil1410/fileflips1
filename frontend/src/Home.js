@@ -214,7 +214,9 @@ export default function Home({
                     file.map((f, index) => (
                       <p key={`file/${index}`}>{f.name}</p>
                     ))
-                  ) }
+                  ) : (
+                         
+                     )}
                 </label>
                 
  {/* ---------- ---------- */}
