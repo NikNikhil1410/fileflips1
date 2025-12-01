@@ -204,15 +204,7 @@ export default function Home({
                 <p className="absolute border-t-2 w-1/2 border-black"></p>
               </div>
               <article className="flex flex-wrap gap-4 justify-center items-center shrink">
-                <label
-                  htmlFor="chooseFile"
-                  className={`${file.length > 0 ? "bg-green-300" : "bg-gray-400"}
-                  rounded-md flex flex-col p-4 w-full xsm:w-fit hover:bg-gray-300 cursor-pointer`}
-                   >
-                 {file.length > 0 && file.map((f, index) => (
-                  <p key={`file/${index}`}>{f.name}</p>
-                   ))}
-               </label>
+                
 
                 
  {/* ---------- ---------- */}
