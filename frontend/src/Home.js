@@ -218,8 +218,7 @@ export default function Home({
                     <p>Choose File</p>
                   )}
                 </label>
-                 <FiUpload className="text-5xl text-primary" />
- 
+                
  {/* ---------- ---------- */}
  <div className="relative w-full xsm:w-fit">
    <button
