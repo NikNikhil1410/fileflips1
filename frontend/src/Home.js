@@ -206,18 +206,14 @@ export default function Home({
               <article className="flex flex-wrap gap-4 justify-center items-center shrink">
                 <label
                   htmlFor="chooseFile"
-                  className={`${
-                    file.length > 0 ? "bg-green-300" : "bg-gray-400"
-                  } rounded-md flex flex-col p-4 w-full xsm:w-fit hover:bg-gray-300 cursor-pointer`}
-                >
-                  {file.length > 0 ? (
-                    file.map((f, index) => (
-                      <p key={`file/${index}`}>{f.name}</p>
-                    ))
-                  ) : (
-                      <p>Choose File</p>
-                   )}
-                </label>
+                  className={`${file.length > 0 ? "bg-green-300" : "bg-gray-400"}
+                  rounded-md flex flex-col p-4 w-full xsm:w-fit hover:bg-gray-300 cursor-pointer`}
+                   >
+                 {file.length > 0 && file.map((f, index) => (
+                  <p key={`file/${index}`}>{f.name}</p>
+                   ))}
+               </label>
+
                 
  {/* ---------- ---------- */}
  <div className="relative w-full xsm:w-fit">
