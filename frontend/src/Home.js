@@ -219,7 +219,7 @@ export default function Home({
                   )}
                 </label>
                  <FiUpload className="text-5xl text-primary" />
- <p className="text-white">Drag your files here or upload</p>
+ 
  {/* ---------- ---------- */}
  <div className="relative w-full xsm:w-fit">
    <button
