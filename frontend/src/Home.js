@@ -215,8 +215,8 @@ export default function Home({
                       <p key={`file/${index}`}>{f.name}</p>
                     ))
                   ) : (
-                         
-                     )}
+                      <p>Choose File</p>
+                   )}
                 </label>
                 
  {/* ---------- ---------- */}
